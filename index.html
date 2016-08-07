@@ -7,9 +7,6 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="index-logo">
-          <img src="img/logo.png" width="20" height="20" alt="sedona-logo">
-        </div>
         <nav class="main-navigation">
            <ul>
              <li>
@@ -17,6 +14,9 @@
              </li>
              <li>
                <a href="#">Фото и видео</a>
+             </li>
+             <li>
+               <a href="#"><img src="img/logo.png" width="20" height="20" alt="sedona-logo"></a>
              </li>
              <li>
                <a href="#">Карта штата</a>
@@ -28,14 +28,16 @@
          </nav>
       </div>
     </header>
-    <main class="container">
+    <main>
       <div class="img-large">
         <img src="img/sedona.jpeg" width="1200" height="500" alt="sedona">
       </div>
-      <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <span>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</span>
+      <div class="promo-text">
+        <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <span>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</span>
+      </div>
       <div class="index-content">
-        <div class="content-title-small">
+        <div class="content-small-blue">
           <h2>Настоящий городок</h2>
           <p>- №1 -</p>
           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
@@ -63,48 +65,54 @@
         <div class="content-image">
           <img src="img/sedona-preview-2.jpeg" width="700" height="150" alt="изображение-Седоны-2">
         </div>
-        <div class="content-title-small">
+        <div class="content-small-blue">
           <h2>Там есть мост дьявола</h2>
           <p>- №2 -</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
-        <div class="content-title-large">
+        <div class="content-large-grey">
           <h2>Небольшая площадь</h2>
           <p>- №3 -</p>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
-        <div class="content-title-large">
+        <div class="content-large-grey">
           <h2>Красивая дорога</h2>
           <p>- №4 -</p>
           <p>Ехать в Седону из Лас-вегаса совсем не скучно!</p>
         </div>
-        <div class="content-title-large">
+        <div class="content-large-grey">
           <h2>Мало туристов</h2>
           <p>- №5 -</p>
           <p>Большинство едет в Гранд Каньон и толпится там</p>
         </div>
         <section class="info">
-          <b>Заинтересовались?</b>
+          <h2>Заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         </section>
         <div class="form">
-          <h2>Поиск гостиниц в Седоне<h2>
-          <label for="date-in">Дата заезда</label>
-          <input type="date" id="date-in" placeholder="24 апреля 2016">
-          <label for="date-out">Дата выезда</label>
-          <input type="date" id="date-out" placeholder="4 июля 2016">
-          <label for="adult">Взрослые</label>
-          <input type="number" id="adult" placeholder="2">
-          <label for="kids">Дети</label>
-          <input type="number" id="kids" placeholder="0">
-          <a class="btn" href="#">Найти</a>
+          <h2>Поиск гостиниц в Седоне</h2>
+            <form action="echo" method="post">
+              <label for="date-in">Дата заезда</label>
+              <input type="date" id="date-in" name="date-in" placeholder="24 апреля 2016">
+              <label for="date-out">Дата выезда</label>
+              <input type="date" id="date-out" name="date-out" placeholder="4 июля 2016">
+              <button class="btn-minus"></button>
+              <label for="adult">Взрослые</label>
+              <button class="btn-plus"></button>
+              <input type="number" id="adult" name="adult" placeholder="2">
+              <button class="btn-minus"></button>
+              <label for="kids">Дети</label>
+              <button class="btn-plus"></button>
+              <input type="number" id="kids" name="kids" placeholder="0">
+              <button class="btn">Найти</button>
+            </form>
         </div>
         <div class="map">
-          <img src="img/map.jpeg" width="1200" height="400" alt="как-проехать-до-седоны">
+          <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22022.825160937402!2d-111.79393596116127!3d34.863449480036785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1470574154629" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div>
         <section class="footer-link">
           <a href="#">#VISITSEDONA</a>
         </section>
