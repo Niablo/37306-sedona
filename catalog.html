@@ -48,17 +48,20 @@
               <label for="motel">Мотель</label>
               <input type="checkbox" id="motel" name="motel">
               <label for="apartment">Апартаменты</label>
-              <input type="apartment" id="type" name="apartment">
+              <input type="checkbox" id="apartment" name="apartment">
             </section>
           </div>
-          <div class="acground-content-right">
+          <div class="bacground-content-right">
             <section class="cost">
               <span class="sub-title">Стоймость в сутки (р):</span>
               <label for="cost"></label>
               <input type="text" id="cost" placeholder="от 0">
               <label for="cost1"></label>
               <input type="text" id="cost1" placeholder="до 3000">
-              <input type="range" id="cost">
+              <div class="range">
+                <button class="right-btn"></button>
+                <button class="left-btn"></button>
+              </div>
               <button class="btn" type="submit">Показать</button>
             </section>
           </div>
