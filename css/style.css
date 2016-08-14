@@ -47,6 +47,10 @@ h2 {
   margin-bottom: 55px;
 }
 
+.index-content-top {
+  width: 1200px;
+}
+
 .content-small {
   float: left;
   width: 400px;
