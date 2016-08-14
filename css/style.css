@@ -2,14 +2,68 @@ body {
 font-size: 14px;
 line-height: normal;
 font-family: sans-serif;
-background-color: f2f2f2;
-color: 000000;
+background-color: #f2f2f2;
+color: #000000;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 21px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 16px;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container, main, .main-footer {
+  background-color: #81b3d2;
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  background-color: #db6146;
+  width: 1200px;
+}
+
+.main-navigation li {
+  background-color: #eb8a75;
+  display: inline-block;
+  width: 210px;
+  padding-left: 15px;
+}
+
+.promo-text {
+  text-align: center;
+  width: 495px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.content-small {
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+
+.content-image-right {
+  width: 800px;
+  float: right;
+}
+
+.features {
+  margin-top: 60px;
+
+}
+
+.features-item {
+  display: inline-block;
+  width: 400px;
 }
