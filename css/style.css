@@ -52,9 +52,12 @@ h2 {
 }
 
 .content-small {
+  background-color: #94d5fd;
   float: left;
   width: 400px;
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .content-image-right {
@@ -63,11 +66,16 @@ h2 {
 }
 
 .features {
+  display: inline-block;
   margin-top: 60px;
 
 }
 
 .features-item {
+  background-color: #d9f0ff;
   display: inline-block;
-  width: 400px;
+  min-height: 185px;
+  width: 390px;
+  text-align: top;
+  margin: 0;
 }
