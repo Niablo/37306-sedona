@@ -1,5 +1,6 @@
 body {
 font-size: 14px;
+text-transform: uppercase;
 line-height: normal;
 font-family: sans-serif;
 background-color: #f2f2f2;
@@ -12,6 +13,7 @@ h1 {
 
 h2 {
   font-size: 16px;
+  font-weight: bold;
 }
 
 .clearfix::after {
@@ -29,15 +31,18 @@ h2 {
 }
 
 .main-navigation {
+  font-size: 0;
   background-color: #db6146;
   width: 1200px;
 }
 
 .main-navigation li {
+  font-size: 14px;
   background-color: #eb8a75;
   display: inline-block;
-  width: 210px;
-  padding-left: 15px;
+  width: 230px;
+  text-align: center;
+  vertical-align: middle;;
 }
 
 .promo-text {
@@ -48,34 +53,108 @@ h2 {
 }
 
 .index-content-top {
-  width: 1200px;
+  font-size: 0;
 }
 
-.content-small {
+.content-small-blue {
   background-color: #94d5fd;
-  float: left;
+  font-size: 14px;
+  display: inline-block;
   width: 400px;
   text-align: center;
+  vertical-align: top;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .content-image-right {
+  display: inline-block;
+  vertical-align: top;
   width: 800px;
-  float: right;
 }
 
 .features {
-  display: inline-block;
-  margin-top: 60px;
-
+  font-size: 0;
 }
 
 .features-item {
+  font-size: 14px;
   background-color: #d9f0ff;
   display: inline-block;
-  min-height: 185px;
+  min-height: 330px;
+  width: 400px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.features-img {
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.index-content-middle {
+  font-size: 0;
+}
+
+.content-image-left {
+  width: 800px;
+  display: inline-block;
+}
+
+.index-content-bottom {
+  font-size: 0;
+  background-color: #eeeeee;
+}
+
+.content-small-grey {
+  font-size: 14px;
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.info {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.form {
+  background-color: #ffffff;
+  vertical-align: middle;
+  text-align: center;
+  width: 575px;
+  min-height: 480px;
+  margin: auto;
+
+}
+
+.form h2 {
+  background-color: #766357;
+  padding-top: 30px;
+  padding-right: 135px;
+  padding-bottom: 30px;
+  padding-left: 135px;
+  margin-top: 50px;
+}
+
+main-footer {
+  font-size: 0;
+  width: 1200px;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.main-footer section {
+  font-size: 14px;
+  display: inline-block;
   width: 390px;
-  text-align: top;
-  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+
 }
