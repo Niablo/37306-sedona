@@ -156,5 +156,50 @@ main-footer {
   width: 390px;
   vertical-align: middle;
   text-align: center;
+}
 
+.footer-copyright {
+  font-size: 0;
+  background-color: #f9fbf6;
+  width: 200px;
+}
+
+.text {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.background-content-left {
+  width: 600px;
+}
+
+.background-content-left li {
+  list-style: none;
+}
+
+.structure {
+  width: 300px;
+  float: left;
+
+}
+
+.type {
+  width: 300px;
+  float: left;
+}
+
+.background-content-right {
+  width: 600px;
+  float: right;
+  vertical-align: middle;
+  text-align: center;
 }

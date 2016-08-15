@@ -30,43 +30,51 @@
       </div>
     </header>
     <main>
-      <div class="background-content">
+      <div class="background-content clearfix">
         <img src="img/hotels-background.jpg" width="1200" height="218" alt="седона-фон">
         <form action="echo" method="post">
+          <fieldset>
           <div class="background-content-left">
             <section class="structure">
-              <span class="sub-title">Инфраструктура:</span>
-              <label for="pool">Бассейн</label>
-              <input type="checkbox" id="pool" name="pool">
-              <label for="parking">Парковка</label>
-              <input type="checkbox" id="parking" name="parking">
-              <label for="Wi-Fi">Wi-Fi</label>
-              <input type="checkbox" id="Wi-Fi" name="Wi-Fi">
+              <ul>
+                <li><legend class="sub-title">Инфраструктура:</legend></li>
+                <li><input type="checkbox" id="pool" name="pool">
+                  <label for="pool">Бассейн</label></li>
+                <li><input type="checkbox" id="parking" name="parking">
+                  <label for="parking">Парковка</label></li>
+                <li><input type="checkbox" id="Wi-Fi" name="Wi-Fi">
+                  <label for="Wi-Fi">Wi-Fi</label></li>
+              </ul>
             </section>
             <section class="type">
-              <span class="sub-title">Тип жилья:</span>
-              <label for="hotel">Гостиница</label>
-              <input type="checkbox" id="hotel" name="hotel">
-              <label for="motel">Мотель</label>
-              <input type="checkbox" id="motel" name="motel">
-              <label for="apartment">Апартаменты</label>
-              <input type="checkbox" id="apartment" name="apartment">
+              <ul>
+                <li><legend class="sub-title">Тип жилья:</legend></li>
+                <li><input type="checkbox" id="hotel" name="hotel">
+                  <label for="hotel">Гостиница</label></li>
+                <li><input type="checkbox" id="motel" name="motel">
+                  <label for="motel">Мотель</label></li>
+                <li><input type="checkbox" id="apartment" name="apartment">
+                  <label for="apartment">Апартаменты</label></li>
+              </ul>
             </section>
           </div>
           <div class="background-content-right">
             <section class="cost">
-              <span class="sub-title">Стоймость в сутки (р):</span>
-              <label for="cost"></label>
-              <input type="text" id="cost" placeholder="от 0">
-              <label for="cost1"></label>
-              <input type="text" id="cost1" placeholder="до 3000">
-              <div class="range">
-                <button class="right-btn"></button>
-                <button class="left-btn"></button>
-              </div>
-              <button class="btn" type="submit">Показать</button>
+              <ul>
+                <li><legend class="sub-title">Стоймость в сутки (р):</legend></li>
+                <li><label for="cost"></label>
+                <input type="text" id="cost" placeholder="от 0">
+                <label for="cost1"></label>
+                <input type="text" id="cost1" placeholder="до 3000"></li>
+                <div class="range">
+                  <button class="right-btn"></button>
+                  <button class="left-btn"></button>
+                </div>
+                <button class="btn" type="submit">Показать</button>
+              </ul>
             </section>
           </div>
+          </fieldset>
         </form>
         <div class="sort-content">
           <div class="sort-content-left">
@@ -139,7 +147,8 @@
             <a class="social-btn social-btn-yt" href="#">Youtube</a>
           </section>
           <section class="footer-copyright">
-            <a class="btn"href="https://htmlacademy.ru"><img src="img/logo-studio.png" width="115" height="40" alt="логотип-HTML-Academy"></a>
+            <div class="text"><p>website by</p></div>
+            <div class="footer-logo"><a class="btn"href="https://htmlacademy.ru"><img src="img/logo-studio.png" width="115" height="40" alt="логотип-HTML-Academy"></a></div>
           </section>
         </div>
       </footer>
